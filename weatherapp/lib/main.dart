@@ -83,7 +83,7 @@ class _WeatherPageState extends State<WeatherPage> {
   var windSpeed;
 
   Future getWeather(String cityName) async {
-    String apiKey = "15fe195a4def4d13af191025231506";
+    String apiKey = "";
     Uri apiUrl = Uri.parse(
         "https://api.weatherapi.com/v1/current.json?key=$apiKey&q=$cityName&aqi=no");
 

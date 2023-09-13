@@ -5,6 +5,7 @@ A new Flutter project.
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+To use it change the ApiKey value at line 86 to your apikey.
 
 A few resources to get you started if this is your first Flutter project:
 
